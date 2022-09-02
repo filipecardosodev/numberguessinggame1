@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="main.js" defer></script>
+
+    <div id="container">
+        <div id="box">
+            <h1>Number guessing game</h1>
+
+            <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll
+                tell
+                you
+                if your guess was too high or too low.
+            </p>
+
+            <label for="number">Enter a guess:</label>
+            <input type="number" id="number" name="number">
+            <button id="submit">Submit guess</button>
+
+            <!--Respostas-->
+            <p id="respostas"></p>
+
+            <!--Enquanto errar fica vermelho, quando acertar fica verde-->
+            <p id="statuss" ></p>
+
+            <p id="highlow"></p>
+
+
+            <button id="tryAgaind" class="hide">Try Again</button>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>

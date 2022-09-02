@@ -1,0 +1,38 @@
+div#container {
+    display: flex;
+    justify-content: center; 
+   
+  
+}
+
+
+div#box {
+    box-sizing: border-box;
+    height: 500px;
+    width: 700px;
+    border: solid 1px black;
+    padding: 20px;
+
+     
+}
+
+.hide{
+    display: none;
+    visibility: hidden;
+   
+}
+
+#statuss{
+    background: red;
+    color: white;
+    font-weight: bold;
+   
+
+}
+
+#statuss.green{
+    background: green;
+    color: white;
+    font-weight: bold;
+  
+}
